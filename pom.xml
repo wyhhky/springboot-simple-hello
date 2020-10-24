@@ -8,7 +8,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.esoft</groupId>
+	<groupId>com.eagle</groupId>
 	<artifactId>springboot-simple-hello</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-simple-hello</name>
