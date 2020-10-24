@@ -14,7 +14,9 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello(){
-        System.out.println("date:" + new Date());
-        return "Simple Hello! The port is "+port;
+        // println output to console
+        Date curDate = new Date();
+        System.out.println("date:" + curDate);
+        return "Simple Hello! The port is "+port+"; Current time is: "+curDate;
     }
 }
